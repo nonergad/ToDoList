@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 30px;
+    margin: 10px 0px 40px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 335px;
+    min-height: 235px;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.rectangle {
+    width: 335px;
+    height: 28px;   
+    background: #FFDC40;
+    margin: 0;
+    border-top-left-radius : 10px;
+    border-top-right-radius : 10px;
+}
+
+.firstInput{
+    margin: 5px;
+}
+
+.sort {
+    width: 30px;
+    height: 20px;
+   background: url('./images/sortBot.svg') no-repeat center center / contain;
+   margin: 0px 0px 10px 240px;
+}
+
+.sort:hover {
+    background: url('./images/sortBotActive.svg') no-repeat center center / contain;
+ }
+
+.sortUp {
+    width: 30px;
+    height: 20px;
+    background: url('./images/sortUp.svg') no-repeat center center / contain;
+    margin: 0px 0px 10px 240px;
+}
+.sortUp:hover{
+    background: url('./images/sortUpActive.svg') no-repeat center center / contain;
+}
+
+.buttonPlus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #AA68FE;
+    background: #bf91fc;
+    margin-right: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 18px;
+    width: 150px;
+    height: 40px;
+    color: white;
+    border-radius: 71px;
+    background: #9953F1;
+    transition: background 0.5s;
+}
+
+.deleteButton{
+    width: 20px;
+    height: 20px;
+    background: url('./images/delete.svg') no-repeat center center / contain;
+}
+
+.deleteButton:hover {
+    background: url('./images/deleteActive.svg') no-repeat center center / contain;
+}
+
+.tasks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 286px;
+    min-height: 40px;
+    padding: 5px;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 2px;
+    height: 20px;
+}
+
+.select {
+    background-color: #FFDC40;
+    box-shadow: 5px 4px 4px hsl(17, 100%, 63%);
+}
+
+.dropLine{
+    height: 10px;
+    width: 100%;
+    background: darkblue;
+}
